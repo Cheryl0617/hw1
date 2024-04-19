@@ -211,7 +211,7 @@ FROM movies movies INNER JOIN studios ON movies.studio_id = studios.studio_id;
 
 
 -- The SQL statement for the cast output
--- TODO!
+-- TODO! Test
 SELECT movies.title, actors.actor_name, roles.character_name
 FROM movies INNER JOIN actors INNER JOIN roles
 ON movies.movie_id = roles.movie_id and
